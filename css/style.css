@@ -3633,13 +3633,14 @@ a:hover {
   position: absolute;
   width: 58.16%;
   top: 0;
-  left: 0;
+  left: -13.27%;
 }
 
 @media screen and (max-width: 1280px) {
   .lower .beginnerfeature-wrap > .positivebox > .image {
     max-width: 100%;
     width: 45%;
+    left: 0;
   }
 }
 
@@ -3748,12 +3749,13 @@ a:hover {
   position: absolute;
   width: 58.98%;
   top: -7.14%;
-  right: 5%;
+  right: -25.51%;
 }
 
 @media screen and (max-width: 1600px) {
   .lower .beginnerfeature-wrap > .explanationbox > .image {
     width: 45%;
+    right: 5%;
   }
 }
 
