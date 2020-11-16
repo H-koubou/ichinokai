@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, ,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>一の会 鍼灸院(旧いおり鍼灸院）｜大阪・西中島の東洋医学専門治療院</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-wrap">
+        <div class="logobox"><a href="index.html"><img src="img/common/logo.svg" alt="一の会鍼灸院"></a></div>
+        <div class="navbox">
+          <nav class="gnav">
+            <ul class="navitem">
+              <li class="item"><a href="index.html"><img src="img/common/home_icon.svg" alt="家のマーク"></a></li>
+              <li class="item"><a href="about.html">一の会鍼灸院について</a></li>
+              <li class="item"><a href="beginner.html">初めての方へ</a></li>
+              <li class="item"><a href="price.html">施術内容・料金</a></li>
+              <li class="item"><a href="access.html">診療時間・交通アクセス</a></li>
+              <li class="item"><a href="staff.html">スタッフ紹介</a></li>
+              <li class="item"><a href="column.html">コラム</a></li>
+            </ul>
+          </nav>
+          <div class="cv">
+            <p class="tel">tel.<a href="tel:0663071122">06-6307-1122</a></p>
+            <p class="mainbtn"><a href="contact.html">予約・相談・お問い合わせへ</a></p>
+          </div>
+        </div>
+        <div id="menuicon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="lower">
+        <nav class="breadcrumbs">
+          <ul class="navitem">
+            <li class="item"><a href="index.html">トップ</a></li>
+            <li class="item">お問い合わせフォーム</li>
+          </ul>
+        </nav>
+
+        <section class="contactconfirm-box">
+          <h1 class="arrowtitle">予約・相談　お問い合わせ内容の確認</h1>
+
+          <form action="confirm.html" mehod="post" class="formcontents">
+
+            <div class="form-wrap">
+              <dl class="formitem">
+                <dt class="title">お名前</dt>
+                <dd class="details">
+                  <input type="text" name="fullname" class="standardinput" placeholder="大阪太郎" value="大阪太郎" readonly>
+                </dd>
+              </dl>
+
+              <dl class="formitem">
+                <dt class="title">フリガナ</dt>
+                <dd class="details">
+                  <input type="text" name="ruby" class="standardinput" required placeholder="オオサカタロウ" value="オオサカタロウ" readonly>
+                </dd>
+              </dl>
+
+              <dl class="formitem">
+                <dt class="title">性別</dt>
+                <dd class="details sex">
+                  <div class="radiobox">
+                    <input type="radio" name="sex" value="男性" id="sex_man" class="radio-input" checked>
+                    <label for="sex_man">男性</label>
+                  </div>
+                  <div class="radiobox">
+                    <input type="radio" name="sex" value="女性" id="sex_famale" class="radio-input" disabled="">
+                    <label for="sex_famale">女性</label>
+                  </div>
+                </dd>
+              </dl>
+
+              <dl class="formitem">
+                <dt class="title">年齢</dt>
+                <dd class="details">
+                  <input type="text" name="age" class="xxsinput" placeholder="00" value="28" readonly>歳
+                </dd>
+              </dl>
+
+              <dl class="formitem">
+                <dt class="title">電話番号</dt>
+                <dd class="details">
+                  <input type="text" name="tel" class="standardinput" placeholder="090‐0000‐0000" value="090‐0000‐0000" readonly>
+                </dd>
+              </dl>
+
+              <dl class="formitem">
+                <dt class="title">メールアドレス</dt>
+                <dd class="details">
+                  <input type="email" name="mailaddress" class="standardinput" placeholder="mail@ichinokai.info" value="mail@ichinokai.info" readonly>
+                </dd>
+              </dl>
+
+              <dl class="formitem trigger none">
+                <dt class="title">当院を知ったきっかけ</dt>
+                <dd class="details">
+                  <div class="radiowrap">
+                    <div class="radiobox">
+                      <input type="radio" name="trigger" value="ご近所さん" id="trigger01" class="radio-input" checked>
+                      <label for="trigger01">ご近所さん</label>
+                    </div>
+                    <div class="radiobox">
+                      <input type="radio" name="trigger" value="口コミ" id="trigger02" class="radio-input" disabled="">
+                      <label for="trigger02">口コミ</label>
+                    </div>
+                    <div class="radiobox">
+                      <input type="radio" name="trigger" value="インターネット" id="trigger03" class="radio-input" disabled="">
+                      <label for="trigger03">インターネット</label>
+                    </div>
+                  </div>
+                  <div class="radiowrap">
+                    <div class="radiobox">
+                      <input type="radio" name="trigger" value="ご紹介" id="trigger04" class="radio-input" disabled="">
+                      <label for="trigger04">ご紹介</label>
+                    </div>
+                    <dl class="intorducerbox">
+                      <dt class="title">ご紹介者様</dt>
+                      <dd class="details">
+                        <input type="text" name="introducer" class="standardinput" placeholder="よろしければご紹介者様をお教えください。">
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="radiowrap trigger">
+                    <div class="radiobox">
+                      <input type="radio" name="trigger" value="その他" id="trigger05" class="radio-input" disabled="">
+                      <label for="trigger05">その他</label>
+                    </div>
+                    <div class="otherbox">
+                      <textarea name="other" rows="" cols="" class="min-area" placeholder="体験談をご覧になられての御依頼の方は同じ治療家が担当することが可能ですので、該当ページのURLを貼り付けて下さい。"></textarea>
+                    </div>
+                  </div>
+                </dd>
+              </dl>
+
+              <dl class="formitem none">
+                <dt class="title">お困りの症状</dt>
+                <dd class="details">
+                  <textarea name="symptoms_in_trouble" rows="" cols="" class="md-area" readonly>テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミー</textarea>
+                </dd>
+              </dl>
+
+              <dl class="formitem none">
+                <dt class="title">ご相談・お問い合わせ内容</dt>
+                <dd class="details">
+                  <textarea name="content_of_inquiry" rows="" cols="" class="md-area"readonly>テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミー</textarea>
+                </dd>
+              </dl>
+            </div>
+            <ul class="btnitem">
+              <li class="item back"><a href="history.back();">内容を修正する</a></li>
+              <li class="item next"><input type="submit" class="submitbtn" value="お問い合わせを送信"></li>
+            </ul>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footertop">
+
+        <div class="footertopinner">
+          <div class="image"><img src="img/common/footer_shop_photo.png" alt=""></div>
+          <div class="informationbox">
+            <p class="logo"><img src="img/common/logo.svg" alt=""></p>
+            <p class="read">大阪市淀川区西中島４－４－１６<br>NLC新大阪６号館 ６階６０２号室 「一の会 鍼灸院」<br>一の会鍼灸院　大阪メトロ「西中島南方」駅　1番出口より徒歩4分</p>
+            <p class="tel">tel. <a href="tel:0663071122">06-6307-1122</a></p>
+            <p class="mainbtn"><a href="contact.html">予約・相談・お問い合わせはこちら</a></p>
+            <dl class="information">
+              <dt class="title">診療時間</dt>
+              <dd class="detail">
+                <dl class="nestinformation">
+                  <dt class="title">月・火</dt>
+                  <dd class="detail">
+                    <ul class="calender">
+                      <li class="item">午後3時～6時30分</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl class="nestinformation">
+                  <dt class="title">水・木・土</dt>
+                  <dd class="detail">
+                    <ul class="calender">
+                      <li class="item">午前10時～12時</li>
+                      <li class="item">午後2時～4時</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl class="nestinformation">
+                  <dt class="title">金</dt>
+                  <dd class="detail">
+                    <ul class="calender">
+                      <li class="item">午前10時～12時</li>
+                      <li class="item">午後3時～6時30分</li>
+                    </ul>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <dl class="information">
+              <dt class="title">診療時間</dt>
+              <dd class="detail">
+                <ul class="closeddays">
+                  <li class="item">日曜</li>
+                  <li class="item">月曜午前診</li>
+                  <li class="item">火曜午前診</li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footernavgation-wrap">
+        <div class="footernavigationinner">
+          <ul class="navitem">
+            <li class="item"><a href="">トップページ</a></li>
+            <li class="item"><a href="about.html">一の会鍼灸院について</a></li>
+            <li class="item"><a href="beginner.html">初めての方へ</a></li>
+            <li class="item"><a href="price.html">施術内容・料金</a></li>
+            <li class="item"><a href="access.html">診療時間・交通アクセス</a></li>
+            <li class="item"><a href="staff.html">スタッフ紹介</a></li>
+          </ul>
+          <ul class="navitem">
+            <li class="item"><a href="news.html">ニュースプレス</a></li>
+            <li class="item">
+              <a href="column.html">コラム</a>
+              <ul class="columnitem">
+                <li class="item"><a href="">いおり日記</a></li>
+                <li class="item"><a href="">東洋医学講座のご案内</a></li>
+                <li class="item"><a href="">ブログ『鍼道 ⼀の会』</a></li>
+                <li class="item"><a href="">鍼灸医学の懐</a></li>
+                <li class="item"><a href="">疾患解説集</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navitem">
+            <li class="item"><a href="contact.html">お問い合わせ</a></li>
+            <li class="item"><a href="privacy.html">プライバシーポリシー</a></li>
+            <li class="item"><a href="sitemap.html">サイトマップ</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy;2020 一の会鍼灸院</p>
+    </footer>
+
+    <div id="hamburger">
+      <div id="overlay"></div>
+      <div id="hamburgerwrap" class="hamburgerwrap">
+        <a id="close" href="javascript:void(0)"><span></span><span></span></a>
+        <ul class="navlist">
+          <li class="list"><a href="">ホーム</a></li>
+          <li class="list"><a href="about.html">一の会鍼灸院について</a></li>
+          <li class="list"><a href="beginner.html">初めての方へ</a></li>
+          <li class="list"><a href="price.html">施術内容・料金</a></li>
+          <li class="list"><a href="access.html">診療時間・交通アクセス</a></li>
+          <li class="list"><a href="staff.html">スタッフ紹介</a></li>
+          <li class="list"><a href="column.html">コラム</a></li>
+        </ul>
+        <div class="cv">
+          <p class="tel">tel.<a href="tel:0663071122">06-6307-1122</a></p>
+          <p class="mainbtn"><a href="contact.html">予約・相談・お問い合わせへ</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/app.js" defer></script>
+  </body>
+  </html>
